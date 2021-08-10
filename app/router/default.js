@@ -12,4 +12,6 @@ module.exports = app => {
   router.get('/default/getArticleById/:id', controller.default.home.getArticleById)
   //类别列表
   router.get('/default/getTypeInfo', controller.default.home.getTypeInfo)
+  // 特定类型文章列表
+  router.get('/default/getListById/:id', controller.default.home.getListById)
 };

@@ -1,5 +1,5 @@
 # egg_service
-
+新手可以尝试phpstudy，快速搭建mysql数据库，并提供了数据库管理工具。
 
 
 ## QuickStart
