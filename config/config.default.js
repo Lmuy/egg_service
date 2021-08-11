@@ -52,8 +52,9 @@ module.exports = appInfo => {
   }
 
   config.cors = {
-    origin: '*', // 允许哪些域名跨域访问
-    allowMethods: 'GET, PUT, POST, DELETE'
+    origin: 'http://127.0.0.1:3000', // 允许哪些域名跨域访问
+    credentials: true, // 允许cookie跨域访问
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
   }
 
   return {
